@@ -11,4 +11,4 @@ install:
 - pip install django==$DJANGO_VERSION
 
 script:
-- 'pythonmanage.py test'
+- 'python manage.py test'
